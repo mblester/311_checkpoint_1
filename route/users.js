@@ -9,5 +9,5 @@ router.get('/users/:id', userController.showUser)
 router.post('/users', userController.createUser)
 router.put('/users/:id', userController.updateUser)
 router.delete('/users/:id', userController.deleteUser)
-
+console.log("hi")
 module.exports=router
