@@ -1,19 +1,33 @@
 {
   "name": "311_checkpoint_1",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Setup",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
     "mongoose": "^6.6.2",
-    "nodemon": "^1.19.1"
+    "mysql": "^2.18.1",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mblester/311_checkpoint_1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mblester/311_checkpoint_1/issues"
+  },
+  "homepage": "https://github.com/mblester/311_checkpoint_1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
