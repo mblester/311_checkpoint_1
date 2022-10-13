@@ -15,6 +15,7 @@ router.get("/appointments/:id", show);
 //create route
 router.post("/appointments/", create);
 
+//update route
 router.put("/appointments/:id", update);
 
 //delete
